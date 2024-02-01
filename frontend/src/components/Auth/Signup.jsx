@@ -63,7 +63,7 @@ const token = localStorage.getItem("token");
           <div>
             <p className="mb-2">User Name</p>
             <input
-              className="py-2 px-3 outline outline-green-600 w-full rounded-md border-1"
+              className="py-2 px-3 outline outline-red-600 w-full rounded-md border-1"
               type="text"
               placeholder="Enter username"
               name="full_name"
@@ -74,7 +74,7 @@ const token = localStorage.getItem("token");
           <div>
             <p className="mb-2">Email</p>
             <input
-              className="py-2 px-3 outline outline-green-600 w-full rounded-md border-1"
+              className="py-2 px-3 outline outline-red-600 w-full rounded-md border-1"
               type="text"
               placeholder="Enter your Email"
               name="email"
@@ -85,7 +85,7 @@ const token = localStorage.getItem("token");
           <div>
             <p className="mb-2">Password</p>
             <input
-              className="py-2 px-2 outline outline-green-600 w-full rounded-md border-1"
+              className="py-2 px-2 outline outline-red-600 w-full rounded-md border-1"
               type="text"
               placeholder="Enter your Password"
               name="password"
@@ -95,7 +95,7 @@ const token = localStorage.getItem("token");
           </div>
           <div>
             <input
-              className="py-[0.7rem] px-3 w-full rounded-md bg-green-600 text-white mt-3"
+              className="py-[0.7rem] px-3 w-full rounded-md bg-red-600 text-white mt-3"
               type="Submit"
               placeholder="Enter your Password"
               value={"Signup"}
