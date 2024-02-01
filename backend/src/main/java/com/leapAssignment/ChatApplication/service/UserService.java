@@ -1,9 +1,9 @@
 package com.leapAssignment.ChatApplication.service;
 
 
-import com.leapAssignment.ChatApplication.config.entity.User;
-import com.leapAssignment.ChatApplication.config.exception.UserException;
-import com.leapAssignment.ChatApplication.config.middlewareRequest.UpdateUserRequest;
+import com.leapAssignment.ChatApplication.entity.User;
+import com.leapAssignment.ChatApplication.exception.UserException;
+import com.leapAssignment.ChatApplication.middlewareRequest.UpdateUserRequest;
 
 import java.util.List;
 

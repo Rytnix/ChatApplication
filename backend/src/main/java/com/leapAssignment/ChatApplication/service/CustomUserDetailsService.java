@@ -1,8 +1,8 @@
 package com.leapAssignment.ChatApplication.service;
 
 
-import com.leapAssignment.ChatApplication.config.entity.User;
-import com.leapAssignment.ChatApplication.config.repository.UserRepository;
+import com.leapAssignment.ChatApplication.entity.User;
+import com.leapAssignment.ChatApplication.repository.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

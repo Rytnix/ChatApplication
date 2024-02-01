@@ -1,7 +1,7 @@
-package com.leapAssignment.ChatApplication.config.repository;
+package com.leapAssignment.ChatApplication.repository;
 
 
-import com.leapAssignment.ChatApplication.config.entity.User;
+import com.leapAssignment.ChatApplication.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

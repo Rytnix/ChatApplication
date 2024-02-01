@@ -1,4 +1,4 @@
-package com.leapAssignment.ChatApplication.config.exception;
+package com.leapAssignment.ChatApplication.exception;
 
 public class UserException extends Exception {
 	

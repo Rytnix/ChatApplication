@@ -2,11 +2,11 @@ package com.leapAssignment.ChatApplication.controller;
 
 
 import com.leapAssignment.ChatApplication.config.JwtTokenProvider;
-import com.leapAssignment.ChatApplication.config.entity.User;
-import com.leapAssignment.ChatApplication.config.exception.UserException;
-import com.leapAssignment.ChatApplication.config.middlewareRequest.LoginRequest;
-import com.leapAssignment.ChatApplication.config.middlewareResponse.AuthResponse;
-import com.leapAssignment.ChatApplication.config.repository.UserRepository;
+import com.leapAssignment.ChatApplication.entity.User;
+import com.leapAssignment.ChatApplication.exception.UserException;
+import com.leapAssignment.ChatApplication.middlewareRequest.LoginRequest;
+import com.leapAssignment.ChatApplication.middlewareResponse.AuthResponse;
+import com.leapAssignment.ChatApplication.repository.UserRepository;
 import com.leapAssignment.ChatApplication.service.CustomUserDetailsService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.leapAssignment.ChatApplication.config.entity;
+package com.leapAssignment.ChatApplication.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -27,7 +27,7 @@ public class User {
 	
 //	@OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
 //	private List<Notification> notifications=new ArrayList<>();
-	
+
 
 
 	

@@ -1,4 +1,4 @@
-package com.leapAssignment.ChatApplication.config.middlewareResponse;
+package com.leapAssignment.ChatApplication.middlewareResponse;
 
 public class AuthResponse {
 	

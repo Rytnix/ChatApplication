@@ -1,4 +1,4 @@
-package com.leapAssignment.ChatApplication.config.middlewareRequest;
+package com.leapAssignment.ChatApplication.middlewareRequest;
 
 public class UpdateUserRequest {
 	
