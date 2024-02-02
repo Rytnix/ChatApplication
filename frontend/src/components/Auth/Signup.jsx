@@ -59,6 +59,10 @@ const token = localStorage.getItem("token");
     <div>
       <div className="flex flex-col justify-center min-h-screen items-center">
       <div className="w-[30%] p-10 shadow-md bg-white">
+      <div >
+        <p style={{fontSize: '30px', textAlign: "center"}}> Welcome to Chats by Leap</p>
+        <br></br>
+      </div>
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <p className="mb-2">User Name</p>
@@ -111,8 +115,15 @@ const token = localStorage.getItem("token");
           >
             Login
           </p>
+
+          
         </div>
+        
       </div>
+      {/* <div >
+        <p style={{fontSize: '20px', textAlign: "center"}}> By Utkarsh Yadav</p>
+        <br></br>
+      </div> */}
       </div>
       <SimpleSnackbar
         message={auth.signup?.message}
@@ -120,6 +131,7 @@ const token = localStorage.getItem("token");
         handleClose={handleClose}
         type={"error"}
       />
+
     </div>
     
   );

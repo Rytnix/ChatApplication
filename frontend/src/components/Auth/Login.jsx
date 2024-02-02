@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { currentUser, login } from "../../Layers/Auth/Action";
 import SimpleSnackbar from "../Home/SimpleSnackbar";
+import { BiFontSize } from "react-icons/bi";
 
 const Login = () => {
   const [inputData, setInputData] = useState({
@@ -54,8 +55,13 @@ const Login = () => {
 
   return (
     <div>
+      
       <div className="flex justify-center min-h-screen items-center">
       <div className="w-[30%] p-10  shadow-md bg-white">
+      <div >
+        <p style={{fontSize: '30px', textAlign: "center"}}> Welcome to Chats by Leap</p>
+        <br></br>
+      </div>
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <p className="mb-2">Email</p>
