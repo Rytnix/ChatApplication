@@ -25,8 +25,8 @@ public class User {
 	private String profile_picture;
 	private String password;
 	
-//	@OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
-//	private List<Notification> notifications=new ArrayList<>();
+	@OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
+	private List<Notification> notifications=new ArrayList<>();
 
 
 

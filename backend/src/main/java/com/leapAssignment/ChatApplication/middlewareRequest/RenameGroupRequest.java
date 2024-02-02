@@ -3,8 +3,8 @@ package com.leapAssignment.ChatApplication.middlewareRequest;
 import lombok.Data;
 
 @Data
-public class UpdateUserRequest {
+public class RenameGroupRequest {
+
+	private String groupName;
 	
-	private String full_name;
-	private String profile_picture;
 }
